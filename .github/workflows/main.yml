@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: octocat/github-action-practice@v1.2
+        uses: octocat/github-actions-practice@v1.2
         with:
           who-to-greet: 'Mona the Octocat'
       # Use the output from the `hello` step
